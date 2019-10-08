@@ -1,3 +1,5 @@
 module.exports = function multiply(first, second) {
-  // your solution
+  let a = Number(first);
+  let b = Number(second);
+  return String(a*b);
 }
